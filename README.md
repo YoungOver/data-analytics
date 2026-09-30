@@ -1,26 +1,29 @@
 # data-analytics
 
-Financial modelling and sales analytics in Python. The outputs are what a founder or a bank actually asks for: a working Excel model and a readable report.
+Финансовое моделирование и аналитика продаж на Python. На выходе то, что на самом деле
+просит основатель или банк: рабочая модель в Excel и понятный отчёт.
 
 ## financial-model
 
-24-month model of a coffee shop generated with openpyxl. All numbers are live Excel formulas, so the client can change assumptions and see the result immediately.
+Модель кофейни на 24 месяца, собранная через openpyxl. Все числа живые формулы Excel,
+поэтому клиент меняет допущения и сразу видит результат.
 
-- assumptions sheet: average check, traffic, seasonality, COGS, rent, payroll, capex
-- monthly P&L and cash flow, break-even month and payback period
-- native Excel charts plus a PNG summary for the pitch deck
+- лист допущений: средний чек, трафик, сезонность, себестоимость, аренда, фонд оплаты труда, капвложения
+- помесячные P&L и движение денег, месяц безубыточности и срок окупаемости
+- встроенные графики Excel и сводка в PNG для презентации инвестору
 
 ![](docs/finmodel.jpg)
 
 ## sales-analytics
 
-Sales report built with pandas and matplotlib: revenue by channel and cohort, ABC analysis of products, retention and a list of recommended actions.
+Отчёт по продажам на pandas и matplotlib: выручка по каналам и когортам, ABC-анализ
+товаров, удержание и список рекомендуемых действий.
 
 ![](docs/analytics.jpg)
 
-## Dashboard
+## Дашборд
 
-Interactive sales dashboard used as a front end for these numbers.
+Интерактивный дашборд продаж как витрина для этих цифр.
 
 ![](docs/dashboard_1440_0.jpg)
 
